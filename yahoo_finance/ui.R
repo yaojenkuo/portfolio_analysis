@@ -21,7 +21,8 @@ shinyUI(fluidPage(
                    label = "Run")
     ),
     mainPanel(
-      dataTableOutput('table')
+      dataTableOutput('table'),
+      verbatimTextOutput('test')
     )
   )
 ))
